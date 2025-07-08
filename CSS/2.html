@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+
+        <!-- we cannnot change their behaviour but cascade it only -->
+        <style>
+            div{
+                border: 1px solid black;
+
+            }
+            .parent{
+                display: flex;
+                height: 250px;
+
+                justify-content: start;
+            }
+            .child{
+                height: 50px;
+            }
+
+        </style>
+</head>
+<body>
+        <!-- block level elements and inline level elements -->
+        <div class ="parent">
+<div class ="child">Item 1</div>
+<div class ="child">Item 2</div>
+<div class ="child">Item 3</div>
+<div class ="child">Item 4</div>
+        </div>
+</body>
+</html>
